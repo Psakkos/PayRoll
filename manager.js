@@ -17,4 +17,7 @@ function pay(){
     let payArray = [dailyPay, yearlyPay, weeklyPay];
     return payArray;
 }
+return {id, workers, pay};
 }
+
+module.exports = manager;
